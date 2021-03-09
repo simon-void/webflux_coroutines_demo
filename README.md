@@ -2,6 +2,13 @@
 
 just creating a `CoroutineCrudRepository` and wiring it up to provide a non-blocking RestAPI.
 
+Check out `PersonRepository` and `PersonController` on how they use suspend functions and `Flow`
+in order to achieve this non-blocking behaviour.
+
+## start-up
+
+via `./gradlew bootRun`
+
 ## calls
 
 (if you test locally, put `http://localhost:8080` in front of all the urls)
